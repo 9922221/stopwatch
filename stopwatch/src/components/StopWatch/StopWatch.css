@@ -1,0 +1,30 @@
+.stopwatch {
+  background: #696969;
+  width: 225px;
+  color: #9E9E9E; 
+}
+
+.time {
+  border-bottom: 1px solid #9E9E9E;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.btn-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 50px;
+}
+
+.active {
+  color: #FFFFFF;
+}
+
+.active-border {
+  border-bottom: 1px solid #FFFFFF;
+}

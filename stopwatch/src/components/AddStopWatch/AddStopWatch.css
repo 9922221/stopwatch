@@ -1,0 +1,14 @@
+.add-stopwatch {
+  position: relative;
+  text-align: center;  
+  background: #696969;
+  width: 225px;
+  height: 128px;
+  color: #9E9E9E;
+}
+
+.img {
+position: absolute;
+top: 45%;
+left: 45%;
+}
