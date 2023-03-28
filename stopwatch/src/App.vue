@@ -1,9 +1,9 @@
 <template>
   <div id="app" class="container">
-    <StopWatch v-for="i in countStopwatches" :key="i" />
-  
-    <AddStopWatch v-on:click="add"/>
-  
+    <StopWatch v-for="item in countStopwatches" :key="item"/>
+
+    <AddStopWatch v-on:click="add" />
+
   </div>
 </template>
 
@@ -19,8 +19,8 @@ export default {
     AddStopWatch
   },
   data: () => ({
-        countStopwatches: 4
-    }),
+    countStopwatches: 4
+  }),
 
   methods: {
     add() {

@@ -1,6 +1,6 @@
 .add-stopwatch {
   position: relative;
-  text-align: center;  
+  text-align: center;
   background: #696969;
   width: 225px;
   height: 128px;
@@ -8,7 +8,7 @@
 }
 
 .img {
-position: absolute;
-top: 45%;
-left: 45%;
+  position: absolute;
+  top: 45%;
+  left: 45%;
 }
